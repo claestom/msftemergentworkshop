@@ -7,16 +7,6 @@
         {
             "@type": "Relationship",
             "name": "contains",
-            "target": "dtmi:contosocom:DigitalTwins:Floor1;1"
-        },
-        {
-            "@type": "Relationship",
-            "name": "contains",
-            "target": "dtmi:contosocom:DigitalTwins:Floor2;1"
-        },
-        {
-            "@type": "Relationship",
-            "name": "contains",
             "target": "dtmi:contosocom:DigitalTwins:Floor3;1"
         }
     ]
