@@ -1,0 +1,22 @@
+{
+    "@id": "dtmi:contosocom:DigitalTwins:Floor2;1",
+    "@type": "Interface",
+    "@context": "dtmi:dtdl:context;2",
+    "contents": [
+        {
+            "@type": "Relationship",
+            "name": "provides",
+            "target": "dtmi:contosocom:DigitalTwins:ComputerRoom2;1"
+        },
+        {
+            "@type": "Property",
+            "name": "Temperature",
+            "schema": "double"
+        },
+        {
+            "@type": "Property",
+            "name": "Humidity",
+            "schema": "double"
+        }
+    ]
+}

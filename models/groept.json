@@ -1,0 +1,23 @@
+{
+    "@id": "dtmi:contosocom:DigitalTwins:GroepT;1",
+    "@type": "Interface",
+    "@context": "dtmi:dtdl:context;2",
+    "comment":"Leuven",
+    "contents": [
+        {
+            "@type": "Relationship",
+            "name": "contains",
+            "target": "dtmi:contosocom:DigitalTwins:Floor1;1"
+        },
+        {
+            "@type": "Relationship",
+            "name": "contains",
+            "target": "dtmi:contosocom:DigitalTwins:Floor2;1"
+        },
+        {
+            "@type": "Relationship",
+            "name": "contains",
+            "target": "dtmi:contosocom:DigitalTwins:Floor3;1"
+        }
+    ]
+}
