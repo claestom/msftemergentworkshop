@@ -1,5 +1,9 @@
 The following workshop was created for the Microsoft x Emergent IoT Workshop Series . Goal was to provide the participants a hands-on introduction to Azure Digital Twin.
 
+In this readme the steps to create the Azure Digital Twins and connect it to the IoT Hub for real-time updates. For this Azure CLI is used. 
+
+For the students to get also familiar with the portal, the following data flows are deployed using this tool: Storage (Data Lake), Visualization (PowerBI) and Alerting (Logic Apps). The tutorial can be found in the tutorial.pdf file above.
+
 # STEP 1: Set up environment
 
 ## Download required tools
